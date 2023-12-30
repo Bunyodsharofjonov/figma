@@ -1,0 +1,36 @@
+.header {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+
+    .header_nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            list-style: none;
+
+            .item a {
+                text-decoration: none;
+                color: #C8C7D8;
+                margin: 20px;
+                font-family: Space Mono;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+            }
+
+            #btn {
+                color: white;
+                border-radius: 7.29px;
+                background: var(--Accent-Brand, #6966FF);
+                padding: 12px 16px;
+                border: none;
+            }
+        }
+    }
+}
